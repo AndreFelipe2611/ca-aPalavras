@@ -78,7 +78,7 @@ int main() {
         Posicao pos = procurarPalavra(grade, palavras[i], tamanho);
 
         if (pos.linha != -1 && pos.coluna != -1) {
-            cout << "A palavra " << palavras[i] << "foi localizada " << pos.direcao
+            cout << "A palavra " << palavras[i] << " foi localizada " << pos.direcao
                  << " a partir de posição (" << pos.linha << "," << pos.coluna << ")." << endl;
         } else {
             cout << "A palavra " << palavras[i] << " não foi localizada." << endl;
